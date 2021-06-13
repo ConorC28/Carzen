@@ -383,6 +383,11 @@ p {
 	
 }
 
+.list-group-item{
+	background:transparent !important;
+	
+}
+
 .list-group
 {
 	width:100%;
@@ -528,7 +533,7 @@ p {
 
 .deals1content .list-group-item{
 	color:#ffffff;
-	background-color:#000000 !important;
+	/*background-color:#000000 !important;*/
 	padding-left:0px !important;
 	padding-right:0px !important;
 }
@@ -562,14 +567,21 @@ p {
 }
 
 .deals3content{
+	height: 500px;
+	background-image: url("Images/handwashing_1_edit.png");
 	color:#000000;	
 	padding-left:0px !important;
 	padding-right:0px !important;
+	/*height: 100%;*/
+	width:100%;
+    background-size: cover;
+	background-repeat: no-repeat, no-repeat;
 }
 
 .deals3content .list-group-item{
+	z-index:2;
 	color:#000000;
-	background-color:#ffffff !important;
+	background-color:none;
 	padding-left:0px !important;
 	padding-right:0px !important;
 }
@@ -585,7 +597,7 @@ p {
 
 .deals4content .list-group-item{
 	color:#ffffff;
-	background-color:#000000 !important;
+	/*background-color:#000000 !important;*/
 	padding-left:0px !important;
 	padding-right:0px !important;
 }
@@ -607,7 +619,6 @@ p {
 
 .deals5content .list-group-item{
 	color:#000000;
-	background-color:#ffffff !important;
 	padding-left:0px !important;
 	padding-right:0px !important;
 }
@@ -642,12 +653,14 @@ p {
 }
 
 .deals3content img{
+	position:absolute;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width:100%;
-	height:auto;
+	width:100% !important;
+	height:100%;
 	border-radius: 10px;
+	background-repeat: no-repeat;
 }
 
 .col-lg-2 h1 {
@@ -842,7 +855,7 @@ body, html {
 	}
 	
 	.deals3content{
-		color:#ffffff;
+		/*color:#ffffff;*/
 		border-top-style: solid;
 
 		
@@ -879,7 +892,7 @@ body, html {
 	}
 	
 	.deals3content{
-		color:#ffffff;
+		/*color:#ffffff;*/
 		border-top-style: solid;
 
 		
@@ -1087,7 +1100,7 @@ body, html {
 	
 	.deals3content img {
 		width:70%;
-		u
+		
 		
 	}
 	 
